@@ -1,0 +1,48 @@
+.new-expense__control {
+  margin: 0.5rem;
+  display: inline-block;
+}
+
+.new-expense__controls {
+  position: relative;
+}
+
+.new-expense__control label {
+  display: block;
+  padding: 0.3rem 0;
+}
+
+.new-expense__control input {
+  width: 20rem;
+  padding: 0.7rem 0.5rem;
+  border-radius: 0.2rem;
+  border: none;
+}
+
+.new-expense__actions {
+  position: absolute;
+  bottom: calc(10px - 2rem); /* less padding-bottom */
+  right: 10px;
+}
+
+.new-expense button {
+  color: white;
+  background-color: #40005d;
+  border: none;
+  padding: 1rem 1.7rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0.7rem;
+
+  &:hover,
+  &:active {
+    background-color: #510674;
+    border-color: #510674;
+  }
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

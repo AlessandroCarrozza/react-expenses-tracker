@@ -1,0 +1,14 @@
+.new-expense {
+  border-radius: 0.4rem;
+  margin: 2rem auto 0;
+  max-width: 50rem;
+  background-color: #a892ee;
+  padding: 1.5rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
